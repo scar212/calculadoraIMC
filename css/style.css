@@ -1,0 +1,157 @@
+body{
+    background-color: #1c7e87;
+}
+h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    text-align: center;
+    color: #efefef;
+}
+.container-info{
+    display: block;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    background: #efefef;
+    padding: 60px 40px;
+    border-radius:20px;
+    box-shadow: 8px 10px #cdcdcd;
+}
+.container-info input{
+    padding: 8px 0px;
+    border-radius: 5px;
+    border: 5px #efefef solid;
+}
+.container-info p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+.btn-calcular{
+    padding: 10px 46px;
+    background-color: #1c7e87;
+    border: 5px #1c7e87 solid;
+    border-radius: 5px;
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+.btn-calcular:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.container-respuesta{
+    display: block;
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    background: #efefef;
+    padding: 105px 100px;
+    border-radius:20px;
+    box-shadow: 8px 10px #cdcdcd;
+}
+.container-respuesta p{
+    margin: 0%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+#texto-imc{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    margin: 10px 0px;
+    color: #1c7e87;
+}
+#texto-clasf{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    color: #1c7e87;
+}
+#barra-1{
+    display: block;
+    position: absolute;
+    top: 80%;
+    width: 50px;
+    height: 10px;
+    background: rgb(17, 85, 232);
+    visibility: hidden;
+}
+#barra-2{
+    display: block;
+    position: absolute;
+    top: 80%;
+    left:28%;
+    width: 50px;
+    height: 10px;
+    background: rgb(0, 255, 0.3);
+    visibility: hidden;
+}
+#barra-3{
+    display: block;
+    position: absolute;
+    top: 80%;
+    left:39%;
+    width: 50px;
+    height: 10px;
+    background: rgb(250, 255, 0.3);
+    visibility: hidden;
+}
+#barra-4{
+    display: block;
+    position: absolute;
+    top: 80%;
+    left:50%;
+    width: 50px;
+    height: 10px;
+    background: rgb(255, 160, 0.3);
+    visibility: hidden;
+}
+#barra-5{
+    display: block;
+    position: absolute;
+    top: 80%;
+    left:61%;
+    width: 50px;
+    height: 10px;
+    background: rgb(255, 100, 0.3);
+    visibility: hidden;
+}
+#barra-6{
+    display: block;
+    position: absolute;
+    top: 80%;
+    left:72%;
+    width: 50px;
+    height: 10px;
+    background: rgb(255, 0, 0.3);
+    visibility: hidden;
+}
+@media screen and (max-width:500px){
+
+.container-info{
+    top: 40%;
+    left: 25%;
+}
+.container-respuesta{
+    top: 110%;
+    left: 7%;
+    padding: 65px 20px;
+    margin: 10px 20px;
+}
+#barra-1{
+    top: 85%;
+}
+#barra-2{
+    top: 85%;
+}
+#barra-3{
+    top: 85%;
+}
+#barra-4{
+    top: 85%;
+}
+#barra-5{
+    top: 85%;
+}
+#barra-6{
+    top: 85%;
+}
+}

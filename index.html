@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
+</head>
+<body>
+    <h1>Calcule su índice de masa corporal (IMC)</h1>
+    <div class="container-info" id="container-info">
+        <p>Ingrese su peso</p>
+        <input type="text" class="caja-peso" id="caja-peso" placeholder="Peso (Kg)"/>
+        <p>Ingrese su altura</p>
+        <input type="text" class="caja-altura" id="caja-altura" placeholder="Altura (Kg)"/>
+        <br>
+        <br>
+        <br>
+        <button class="btn-calcular" id="btn-calcular">Calcular</button>
+    </div>
+    <div class="container-respuesta" id="container-respuesta">
+        <p id="texto-imc">Su índice de masa corporal (IMC) es:</p>
+        <br>
+        <p id="texto-resp-imc"></p>
+        <br>
+        <p id="texto-clasf">Usted está en una clasificación de IMC:</p>
+        <br>
+        <p id="texto-resp-clasf"></p>
+        <span id="barra-1"> </span>
+        <span id="barra-2"> </span>
+        <span id="barra-3"> </span>
+        <span id="barra-4"> </span>
+        <span id="barra-5"> </span>
+        <span id="barra-6"> </span>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
